@@ -26,7 +26,6 @@ export const InputNode = ({ id, data }) => {
       id={id}
     >
       <Label label="Input" />
-      <div>
         <Input
           id="input-node-name"
           label="Name"
@@ -40,7 +39,6 @@ export const InputNode = ({ id, data }) => {
           onChange={handleTypeChange}
           options={inputNodeSelectOptions}
         />
-      </div>
     </BaseNode>
   );
 };

@@ -25,7 +25,6 @@ export const OutputNode = ({ id, data }) => {
       id={id}
     >
       <Label label={"Output"} />
-      <div>
         <Input
           id="output-node-name"
           label="Name"
@@ -39,7 +38,6 @@ export const OutputNode = ({ id, data }) => {
           onChange={handleTypeChange}
           options={outputNodeSelectOptions}
         />
-      </div>
     </BaseNode>
   );
 };

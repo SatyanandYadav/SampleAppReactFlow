@@ -17,7 +17,6 @@ export const TextNode = ({ id, data }) => {
       id={id}
     >
       <Label label="Text" />
-      <div>
         <Input
           id="text-node"
           label="Text"
@@ -25,7 +24,6 @@ export const TextNode = ({ id, data }) => {
           type="text"
           onChange={handleTextChange}
         />
-      </div>
     </BaseNode>
   );
 };
