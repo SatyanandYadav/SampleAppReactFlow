@@ -34,7 +34,7 @@ export const TextNode = ({ id, data }) => {
       style={{ width: nodeSize.width }}
       outputs={[{ id: `${id}-output` }]}
       inputs={variables.map((variable) => ({
-        id: `${id}-${variable}-input53er35er3e`,
+        id: `${id}-${variable}-input`,
       }))}
       id={id}
     >
