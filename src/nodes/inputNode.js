@@ -21,7 +21,6 @@ export const InputNode = ({ id, data }) => {
 
   return (
     <BaseNode
-      style={{ width: 200, height: 80, border: "1px solid black" }}
       outputs={[{ id: `${id}-value` }]}
       id={id}
     >

@@ -12,10 +12,8 @@ export const TokenizerNode = ({ id, data }) => {
   return (
     <BaseNode
       id={id}
-      data={{ label: "Tokenizer" }}
       inputs={[{ id: `${id}-text` }]}
       outputs={[{ id: `${id}-tokens` }, { id: `${id}-token-count` }]}
-      style={{ width: 200, height: 80, border: "1px solid black" }}
     >
       <Label label="Tokenizer" />
       <Select

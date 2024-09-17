@@ -14,7 +14,6 @@ export const VectorStoreNode = ({ id, data }) => {
       id={id}
       inputs={[{ id: `${id}-vector` }, { id: `${id}-metadata` }]}
       outputs={[{ id: `${id}-status` }]}
-      style={{ width: 200, height: 80, border: "1px solid black" }}
     >
       <Label label="Vector Store" />
       <Select

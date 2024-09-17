@@ -18,7 +18,6 @@ export const APINode = ({ id, data }) => {
       id={id}
       inputs={[{ id: `${id}-params` }]}
       outputs={[{ id: `${id}-response` }]}
-      style={{ width: 200, height: 80, border: "1px solid black" }}
     >
       <Label label="API Request" />
       <Input

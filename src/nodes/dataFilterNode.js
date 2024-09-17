@@ -15,7 +15,6 @@ export const DataFilterNode = ({ id, data }) => {
       id={id}
       inputs={[{ id: `${id}-data` }]}
       outputs={[{ id: `${id}-data-filtered` }]}
-      style={{ width: 200, height: 80, border: "1px solid black" }}
     >
       <Label label={"Data Filter"} />
       <Input

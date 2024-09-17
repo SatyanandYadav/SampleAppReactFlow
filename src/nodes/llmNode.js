@@ -21,7 +21,6 @@ export const LLMNode = ({ id, data }) => {
 
   return (
     <BaseNode
-      style={{ width: 200, height: 80, border: "1px solid black" }}
       inputs={inputHandles}
       outputs={outputHandles}
       id={id}

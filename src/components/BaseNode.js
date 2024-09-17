@@ -8,7 +8,7 @@ export const BaseNode = ({
   children,
 }) => {
   return (
-    <div className="transform -translate-y-1/2 flex flex-col justify-center gap-2 bg-white rounded-lg w-60 p-3 border border-solid border-violet-500 shadow-[0_0_0_2px] shadow-violet-200">
+    <div style={style} className="transform -translate-y-1/2 flex flex-col justify-center gap-2 bg-white rounded-lg w-60 p-3 border border-solid border-violet-500 shadow-[0_0_0_2px] shadow-violet-200">
       {children}
       {inputs.map((input, index) => {
         return (

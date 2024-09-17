@@ -14,7 +14,6 @@ export const TextEmbeddingNode = ({ id, data }) => {
       id={id}
       inputs={[{ id: `${id}-text` }]}
       outputs={[{ id: `${id}-embedding` }]}
-      style={{ width: 200, height: 80, border: "1px solid black" }}
     >
       <Label label="Text Embedding" />
       <Select
